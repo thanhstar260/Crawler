@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Crawl newspaper</title>
+        <link rel="stylesheet" href="/static/news_crawler/new.css">
+        <link rel="icon" href="static/vn_fav.jpg" type="image" sizes="16x16">
+    </head>
+    <body>
+      <div class="MENU">
+        <a href="/"><h1>MENU</h1></a>
+      </div>
+        <div class="session">
+          <div class="left">
+            <?xml version="1.0" encoding="UTF-8"?>
+          </div>
+
+          <div class="crawl">
+            <form action="/newscrawl" method="get" class="crawl" autocomplete="off"> 
+                <div class="quotes">
+                    <h1>Crawl newspaper</h1>
+                </div>
+            
+                <div class="form-group">
+                  <label for="base_category">Type:</label>
+                  <select id="base_category" name="base_category">
+                      <option value="thoi su">Thời sự</option>
+                      <option value="goc nhin">Góc nhìn</option>
+                      <option value="the gioi">Thế giới</option>
+                      <option value="kinh doanh">Kinh doanh</option>
+                      <option value="khoa hoc">Khoa học</option>
+                      <option value="giai tri">Giải trí</option>
+                      <option value="the thao">Thể thao</option>
+                      <option value="phap luat">Pháp luật</option>
+                      <option value="giao duc">Giáo dục</option>
+                      <option value="suc khoe">Sức khỏe</option>
+                      <option value="doi song">Đời sống</option>
+                      <option value="du lich">Du lịch</option>
+                  </select><br><br>
+              </div>
+              
+    
+                <label for="nums" class = 'information'>Total:</label>
+                <input type="number" id="nums" name="nums"><br><br>
+    
+                <div id="crawl">
+                    <input type="submit" value="Crawl">
+                </div>
+            </form>
+          </div>
+        </div>
+      </body>
+    
+        </div>
+      </body>
+</html>

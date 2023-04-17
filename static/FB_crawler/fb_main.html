@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Facebook Crawler</title>
+        <link rel="stylesheet" href="/static/FB_crawler/fb.css">
+    </head>
+    <body>
+      <div class="MENU">
+        <a href="/"><h1>MENU</h1></a>
+      </div>
+        <div class="session">
+          <div class="left">
+            <?xml version="1.0" encoding="UTF-8"?>
+          </div>
+
+          <div class="crawl">
+            <form action="/fbcrawl" method="get" class="crawl" autocomplete="off"> 
+                <div class="quotes">
+                    <h1>Facebook Fanpage Crawler</h1>
+                </div>
+                
+                <label for="url" class = 'information'>Link Fanpage:</label>
+                <input type="text" id="url" name="url"><br><br>
+                <label for="num_posts" class = 'information'>Number of posts:</label>
+                <input type="number" id="num_posts" name="num_posts"><br><br>
+                <div id="crawl">
+                    <input type="submit" value="Crawl">
+                </div>
+            </form>
+          </div>
+        </div>
+      </body>
+</html>
